@@ -5,7 +5,7 @@ from subprocess import Popen
 
 topo = Topology(db="topology.db")
 
-iperf_send = "mx {0} iperf3 -c {1} -M 9000 -t {2} --bind {3} --cport {4} -p {5} 2>&1 >/dev/null"
+iperf_send = "mx {0} iperf3 -c {1} -M 9000 -t {2} --bind {3} -p {5} 2>&1 >/dev/null"
 iperf_recv = "mx {0} iperf3 -s -p {1} --one-off 2>&1 >/dev/null"
 
 
