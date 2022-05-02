@@ -1,0 +1,17 @@
+{
+    "mode": "mix",
+    "flow_size_dist": "uniform",
+    "flow_size_min": 1,
+    "flow_size_max": 8,
+    "flow_generate_mode": "perflow",
+    "perflow_mode": "random",
+    "flow_num": 16,
+    "flow_gap_dist": "poisson",
+    "flow_gap_min": 1,
+    "flow_gap_max": 2,
+    "memcached_host_list": [1, 2, 3, 4, 5, 6, 7, 8],
+    "iperf_host_list": [1, 2, 3, 4, 5, 6, 7, 8],
+    "length": 60,
+    "file": "apps/trace/trace.txt",
+    "simple": false
+}
